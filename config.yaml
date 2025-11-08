@@ -1,0 +1,56 @@
+# Configuration file for E-commerce Analytics Dashboard
+
+project:
+  name: "E-commerce Analytics Dashboard"
+  version: "1.0.0"
+  author: "Seu Nome"
+
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  cache_path: "data/cache/"
+  
+  # Kaggle dataset
+  kaggle_dataset: "olistbr/brazilian-ecommerce"
+  
+  # Arquivos principais
+  files:
+    orders: "olist_orders_dataset.csv"
+    order_items: "olist_order_items_dataset.csv"
+    customers: "olist_customers_dataset.csv"
+    products: "olist_products_dataset.csv"
+    sellers: "olist_sellers_dataset.csv"
+    payments: "olist_order_payments_dataset.csv"
+    reviews: "olist_order_reviews_dataset.csv"
+    geolocation: "olist_geolocation_dataset.csv"
+
+processing:
+  # Filtros de qualidade
+  min_order_value: 0.01
+  max_delivery_days: 365
+  
+  # Segmentação RFM
+  rfm:
+    recency_bins: [0, 30, 90, 180, 365, 999]
+    frequency_bins: [1, 2, 3, 5, 999]
+    monetary_bins: [0, 100, 500, 1000, 5000, 999999]
+
+dashboard:
+  host: "127.0.0.1"
+  port: 8050
+  debug: true
+  
+  # Cores do tema
+  colors:
+    primary: "#1f77b4"
+    secondary: "#ff7f0e"
+    success: "#2ca02c"
+    danger: "#d62728"
+    background: "#f8f9fa"
+
+analytics:
+  # Parâmetros de análise
+  top_n_products: 10
+  top_n_categories: 15
+  cohort_periods: 12
+  
