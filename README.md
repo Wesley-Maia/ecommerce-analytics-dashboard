@@ -53,7 +53,7 @@ ecommerce-analytics-dashboard/
 
 1. **Clone o repositório**
 ```bash
-git clone <seu-repositorio>
+git clone git@github.com:Wesley-Maia/ecommerce-analytics-dashboard.git
 cd ecommerce-analytics-dashboard
 ```
 
@@ -125,7 +125,7 @@ Este dataset contém informações de 100k pedidos realizados na Olist Store ent
 **Seu Nome**
 - LinkedIn: [Wesley-OM](https://www.linkedin.com/in/wesley-om)
 - GitHub: [@Wesley-Maia](https://github.com/Wesley-Maia)
-- Email: seu.email@example.com
+- Email: maia.weol@gmail.com
 
 ## 📄 Licença
 
