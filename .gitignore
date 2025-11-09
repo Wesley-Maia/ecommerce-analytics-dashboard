@@ -72,3 +72,12 @@ logs/
 plots/
 outputs/
 figures/
+
+# Data
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+data/cache/*
+*.csv
+*.xlsx
+*.zip
