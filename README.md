@@ -113,7 +113,7 @@ Este dataset contém informações de 100k pedidos realizados na Olist Store ent
 ## 📈 Status do Projeto
 
 - [x] Setup inicial do projeto
-- [ ] Análise exploratória dos dados
+- [x] Análise exploratória dos dados
 - [ ] Limpeza e processamento
 - [ ] Análise RFM
 - [ ] Dashboard básico
@@ -123,8 +123,8 @@ Este dataset contém informações de 100k pedidos realizados na Olist Store ent
 ## 👨‍💻 Autor
 
 **Seu Nome**
-- LinkedIn: [seu-linkedin](https://linkedin.com/in/seu-perfil)
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
+- LinkedIn: [Wesley-OM](https://www.linkedin.com/in/wesley-om)
+- GitHub: [@Wesley-Maia](https://github.com/Wesley-Maia)
 - Email: seu.email@example.com
 
 ## 📄 Licença
